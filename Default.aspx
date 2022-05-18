@@ -10,10 +10,31 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            Введите имя
+            <p>
             <asp:TextBox ID="Name" runat="server"></asp:TextBox>
-            <asp:Button ID="Button" runat="server" Text="Button" />
-            <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+            <asp:Button ID="GetResult" runat="server" Text="Button" OnClick="GetResult_Click" />
+            </p>
+            <p>
+            <asp:Label ID="Result" runat="server" Text="Label"></asp:Label>
+
+            </p>
         </div>
+        <p>
+            &nbsp;</p>
+        <p>
+
+        </p>
+        <p>
+            &nbsp;</p>
+        <p>
+            &nbsp;</p>
+        <p>
+            &nbsp;</p>
+        <p>
+            &nbsp;</p>
+        <p>
+            &nbsp;</p>
     </form>
 </body>
 </html>
