@@ -13,5 +13,16 @@ namespace WebApplicationEmptyEx
         {
 
         }
+
+        protected void Button0_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void GetResult_Click(object sender, EventArgs e)
+        {
+            string result = Name.Text + ", Привет!";
+            Result.Text = result;
+        }
     }
 }
